@@ -1,0 +1,105 @@
+#galeriaa {
+    height:730px;
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+    color:lightseagreen;
+    width: 50%;
+}
+
+.option{
+    float: left;
+    width: 144px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    font-size: 20px;
+    font color: mediumorchid;
+    
+    opacity: 0,8;
+}
+
+.option:hover{
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+#table{
+    border-collapse:dotted;
+    width: 60%;
+}
+#table td{
+    border: 1px;
+    padding: 1px;
+    color: darkorange;
+ 
+}
+
+
+#table th {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: green;
+ 
+}
+
+#content{
+    float: left;
+    padding: 10px;
+    width: 1300px;
+    min-height: 500x;
+
+}
+.button {
+  background-color: #391326;
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+.button4 {border-radius: 12px;}
+
+
+#duze_zdjecie {
+    float: center;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+
+#miniaturka a {
+    border: solid 1px #ccc;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    margin: 2px;
+    float: left;
+}
+
+
+
+#miniaturka li {
+    list-style: none;
+}
+
+#miniaturka {
+    margin: 15px;
+    padding: 0;
+}
+
+#miniaturka img {
+    width: 100px;
+    height: 100px;
+}
